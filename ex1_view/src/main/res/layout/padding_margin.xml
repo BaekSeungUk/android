@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!--뷰의 간격 설정-->
+    <!--padding, margin-->
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="btn1"
+        android:backgroundTint="#1CE6A0"
+        android:paddingBottom="70dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="btn2"
+        android:backgroundTint="#ECA1A1"
+        android:layout_margin="30dp"
+        android:paddingTop="55dp"/>
+
+
+
+
+</LinearLayout>

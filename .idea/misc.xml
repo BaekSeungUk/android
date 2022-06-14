@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Java/workspace-android/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex1_view/src/main/res/layout/relative_test.xml" value="0.19384057971014493" />
+        <entry key="..\:/Java/workspace-android/ex2_keypad/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/Java/workspace-android/ex2_layout/src/main/res/layout/activity_main.xml" value="0.19429347826086957" />
+        <entry key="..\:/Java/workspace-android/ex2_layout/src/main/res/layout/const_test.xml" value="0.25" />
+        <entry key="..\:/Java/workspace-android/ex2_layout/src/main/res/layout/frame_test.xml" value="0.25" />
+        <entry key="..\:/Java/workspace-android/ex2_layout/src/main/res/layout/grid_test.xml" value="0.19429347826086957" />
+        <entry key="..\:/Java/workspace-android/ex2_layout/src/main/res/layout/relative_test.xml" value="0.18" />
+        <entry key="..\:/Java/workspace-android/ex3_event/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Java/workspace-android/ex3_stop/src/main/res/drawable/round_button.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex3_stop/src/main/res/layout/activity_main.xml" value="0.13221884498480244" />
+        <entry key="..\:/Java/workspace-android/ex4_practice/src/main/res/drawable/round_button.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex4_practice/src/main/res/layout-land/activity_main.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex4_practice/src/main/res/layout-land/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex4_practice/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex4_practice/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex4_resource_edu/src/main/res/drawable/shape_test.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex4_resource_edu/src/main/res/layout-land/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex4_resource_edu/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Java/workspace-android/ex4_resource_edu/src/main/res/layout/activity_main2.xml" value="0.13221884498480244" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

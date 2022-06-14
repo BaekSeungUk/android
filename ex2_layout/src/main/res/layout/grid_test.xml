@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:columnCount="3">
+    <!--배치 규칙 : Linear레이아웃과는 다르게 줄바꿈을 자동으로 해준다-->
+    <!--orientation : 배치하는 방향 설정(가로,세로)-->
+    <!--rowCount : 세로로 나열할 뷰의 갯수-->
+    <!--columnCount : 가로로 나열할 뷰의 갯수-->
+   <!-- <Button android:text="A"/>
+    <Button android:text="B"/>
+    <Button android:text="C"/>
+    <Button android:text="D"/>
+    <Button android:text="E"/>-->
+
+    <!--특정 뷰의 위치 조정-->
+    <!--layout_row : 뷰가 위치하는 세로 방향의 인덱스-->
+    <!--layout_column : 뷰가 위치하는 가로 방향 인덱스-->
+    <!--<Button android:text="A"/>
+    <Button android:text="B"/>
+    <Button android:text="C"
+        android:layout_row="1"
+        android:layout_column="2"/>
+    <Button android:text="D"/>
+    <Button android:text="E"/>-->
+
+    <!--특정 뷰의 크기 확장하기-->
+    <!--<Button android:text="A"/>
+    <Button android:text="HELLOWOLRD HELLOWLRD"/>
+    <Button android:text="C"/>
+    <Button android:text="D"/>
+    <Button android:text="E"
+        android:layout_gravity="fill_horizontal"/>-->
+
+    <!--한칸에 뷰를 여러개 표시-->
+    <!--layout row, column, gravity 속성을 응용-->
+    <!--<Button android:text="A"/>
+    <Button android:text="HELLOWOLRD HELLOWLRD"/>
+    <Button android:text="C"/>
+    <Button android:text="D"/>
+    <Button android:text="E"/>
+    <Button android:text="F"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="right"/>-->
+
+    <!--열, 행 병합-->
+    <!--layout columnSpan, rowSpan 이용 + gravity 속성-->
+    <Button android:text="A"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"/>
+    <Button android:text="B"/>
+    <Button android:text="C"/>
+    <Button android:text="D"/>
+    <Button android:text="E"/>
+    <Button android:text="F"/>
+</GridLayout>

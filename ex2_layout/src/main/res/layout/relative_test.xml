@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--배치 규칙 : 상대 뷰의 위치를 기준으로 정렬-->
+    <!--아이디 속성 부여 :
+        ex) android:id="@+id/아이디이름"-->
+    <!--특정속성에서 아이디 사용 :
+        ex) android:layout_toRightOf="@id/아이디이름"-->
+    <!--기준 : 아이디 속성을 부여-->
+    <ImageView
+        android:id="@+id/testImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="100dp"/>
+
+    <!--기준이 되는 뷰를 중심으로 정렬 : 기준뷰의 아이디 값을 이용해 정렬-->
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn1"
+        android:layout_toRightOf="@id/testImage"/>-->
+
+    <!--맞춤 정렬을 하는 align 속성-->
+    <!--<TextView
+        android:id="@+id/testText"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="textView 테스트"
+        android:gravity="bottom"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn2"
+        android:layout_below="@+id/testText"
+        android:layout_alignRight="@+id/testText"/>-->
+
+    <!--상위 레이아웃을 기준으로 정렬-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼"
+        android:layout_alignBottom="@+id/testImage"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

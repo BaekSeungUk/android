@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--텍스트뷰의 다양한 속성-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/hello"
+        android:textColor="#CCB620"
+        android:textSize="50dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="http://www.naver.com"
+        android:autoLink="web"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="sik@email.com"
+        android:autoLink="email"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textSize="24dp"
+        android:text="010-000-0000"
+        android:autoLink="phone"/>
+
+    <!--maxLines속성-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="@string/ko_sing"
+        android:maxLines="3" />
+
+    <!--maxLines속성-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="@string/ko_sing"
+        android:singleLine="true"
+        android:ellipsize="start"/>
+
+</LinearLayout>

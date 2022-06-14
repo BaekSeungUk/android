@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">ex4_practice</string>
+    <string name="intro_detail">
+        continously uploading your contacts helps Facebook and
+        Messenger suggest connections
+    </string>
+</resources>

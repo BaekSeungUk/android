@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/btn1"
+       android:text="btn1"
+       tools:ignore="MissingConstraints" />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/btn2"
+       android:text="btn2"
+       tools:ignore="MissingConstraints" />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/btn3"
+       android:text="btn3"
+       tools:ignore="MissingConstraints" />
+
+   <!--이미지를 넣고, 아이디값을 지정-->
+   <!--처음에는 빈 하트만 화면에 나오고,
+   빈 하트를 누르면 채워진 하트가 나오고,
+   빈 하트는 사라지게-->
+   <FrameLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <ImageView
+          android:id="@+id/heart2"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:src="@drawable/heart2"/>
+
+      <ImageView
+          android:id="@+id/heart1"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:src="@drawable/heart1"
+          android:visibility="invisible"/>
+   </FrameLayout>
+
+</LinearLayout>
