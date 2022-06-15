@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bitc.ex5_noti_edu">
+    <!--퍼미션(권한) 생성 : 권한을 내보낼 앱에서 작성-->
+    <!--<permission android:name="com.bitc.ex5_noti_edu.TEST_PERMISSION"
+        android:label="Test Permission"
+        android:protectionLevel="dangerous"
+        android:description="@string/test_permission"/>-->
+    <!--퍼미션 사용 : 권한을 받을 앱에서 작성-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!--<uses-permission android:name="com.bitc.ex5_noti_edu.TEST_PERMISSION"/>-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BusanItAndroid">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--퍼미션(권한)으로 액티비티 보호-->
+        <!--<activity
+            android:permission="com.bitc.ex5_noti_edu.TEST_PERMISSION"
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
+    </application>
+
+</manifest>
