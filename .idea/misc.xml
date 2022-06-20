@@ -23,10 +23,17 @@
         <entry key="..\:/Java/workspace-android/ex4_resource_edu/src/main/res/layout-land/activity_main2.xml" value="0.1" />
         <entry key="..\:/Java/workspace-android/ex4_resource_edu/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Java/workspace-android/ex4_resource_edu/src/main/res/layout/activity_main2.xml" value="0.13221884498480244" />
+        <entry key="..\:/Java/workspace-android/ex5_kakao_noti/src/main/res/layout/activity_main.xml" value="0.12917933130699089" />
         <entry key="..\:/Java/workspace-android/ex5_noti_edu/src/main/res/layout/activity_main.xml" value="0.12462006079027356" />
         <entry key="..\:/Java/workspace-android/ex5_noti_edu/src/main/res/layout/dialog_input.xml" value="0.15" />
         <entry key="..\:/Java/workspace-android/ex5_noti_edu2/src/main/res/layout/activity_detail.xml" value="0.16111111111111112" />
         <entry key="..\:/Java/workspace-android/ex5_noti_edu2/src/main/res/layout/activity_main.xml" value="0.16111111111111112" />
+        <entry key="..\:/Java/workspace-android/ex6_jetpack/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/Java/workspace-android/ex6_jetpack/src/main/res/layout/activity_two.xml" value="0.12943262411347517" />
+        <entry key="..\:/Java/workspace-android/ex6_jetpack/src/main/res/layout/fragment_one.xml" value="0.12943262411347517" />
+        <entry key="..\:/Java/workspace-android/ex6_jetpack/src/main/res/menu/menu_main.xml" value="0.16111111111111112" />
+        <entry key="..\:/Java/workspace-android/ex6_jetpack_recycler/src/main/res/layout/activity_main.xml" value="0.12943262411347517" />
+        <entry key="..\:/Java/workspace-android/ex6_jetpack_recycler/src/main/res/layout/activity_recycler_view.xml" value="0.12892603850050657" />
       </map>
     </option>
   </component>

@@ -11,8 +11,11 @@ import android.net.Uri
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.SystemClock
 import androidx.core.app.NotificationCompat
+import androidx.core.app.RemoteInput
 import com.bitc.ex5_noti_edu2.databinding.ActivityMainBinding
+import kotlin.concurrent.thread
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -88,5 +91,53 @@ class MainActivity : AppCompatActivity() {
                 pendingIntent
             ).build()
         )
+
+        // 원격 입력
+        val KEY_TEXT_REPLY = "key_text_reply"
+        var replyLabel = "답장"
+        var remoteInput:RemoteInput = RemoteInput.Builder(KEY_TEXT_REPLY).run {
+            setLabel(replyLabel)
+            build()
+        }
+
+        val replyIntent = Intent(this, OneReceiver::class.java)
+        val replyPendingIntent = PendingIntent.getBroadcast(
+            this,
+            20,
+            replyIntent,
+            PendingIntent.FLAG_MUTABLE)
+        builder.addAction(
+            NotificationCompat.Action.Builder(
+                android.R.drawable.stat_notify_chat,
+                "답장",
+                replyPendingIntent
+            ).addRemoteInput(remoteInput).build()
+        )
+
+        // 프로그레스 바를 이용한 진행상황 확인
+        thread {
+            for (i in 1..100) {
+                builder.setProgress(100,i,false)
+                manager.notify(11,builder.build())
+                SystemClock.sleep(100)
+            }
+        }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

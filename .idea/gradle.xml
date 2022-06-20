@@ -19,8 +19,11 @@
             <option value="$PROJECT_DIR$/ex3_stop" />
             <option value="$PROJECT_DIR$/ex4_practice" />
             <option value="$PROJECT_DIR$/ex4_resource_edu" />
+            <option value="$PROJECT_DIR$/ex5_kakao_noti" />
             <option value="$PROJECT_DIR$/ex5_noti_edu" />
             <option value="$PROJECT_DIR$/ex5_noti_edu2" />
+            <option value="$PROJECT_DIR$/ex6_jetpack" />
+            <option value="$PROJECT_DIR$/ex6_jetpack_recycler" />
           </set>
         </option>
       </GradleProjectSettings>
