@@ -50,6 +50,23 @@
         <entry key="..\:/Java/workspace-android/ex7_mat_edu/src/main/res/layout/activity_main_back5.xml" value="0.12943262411347517" />
         <entry key="..\:/Java/workspace-android/ex7_mat_edu/src/main/res/layout/main_header.xml" value="0.12892603850050657" />
         <entry key="..\:/Java/workspace-android/ex7_mat_edu/src/main/res/menu/menu_navi.xml" value="0.16111111111111112" />
+        <entry key="..\:/Java/workspace-android/ex7_mat_practice/src/main/res/layout/activity_main.xml" value="0.10596026490066225" />
+        <entry key="..\:/Java/workspace-android/ex7_mat_practice/src/main/res/layout/fragment_one.xml" value="0.22" />
+        <entry key="..\:/Java/workspace-android/ex7_mat_practice/src/main/res/layout/fragment_three.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex7_mat_practice/src/main/res/layout/fragment_two.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex7_mat_practice/src/main/res/layout/item_recycleview.xml" value="0.14" />
+        <entry key="..\:/Java/workspace-android/ex7_mat_practice/src/main/res/layout/navigation_header.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex7_mat_practice/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex7_mat_practice/src/main/res/menu/menu_navigation.xml" value="0.22" />
+        <entry key="..\:/Java/workspace-android/ex8_component/src/main/res/layout-land/activity_main.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex8_component/src/main/res/layout-land/activity_main_back.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex8_component/src/main/res/layout/activity_detail.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex8_component/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex8_component/src/main/res/layout/activity_main_back.xml" value="0.125" />
+        <entry key="..\:/Java/workspace-android/ex8_todo/src/main/res/layout/activity_add.xml" value="0.125" />
+        <entry key="..\:/Java/workspace-android/ex8_todo/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Java/workspace-android/ex8_todo/src/main/res/layout/item_recyclerview.xml" value="0.125" />
+        <entry key="..\:/Java/workspace-android/ex8_todo/src/main/res/menu/menu_add.xml" value="0.125" />
       </map>
     </option>
   </component>
