@@ -11,6 +11,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ex10_networking" />
+            <option value="$PROJECT_DIR$/ex10_news" />
             <option value="$PROJECT_DIR$/ex1_kakaologin_page" />
             <option value="$PROJECT_DIR$/ex1_view" />
             <option value="$PROJECT_DIR$/ex2_keypad" />
@@ -29,6 +31,8 @@
             <option value="$PROJECT_DIR$/ex7_mat_practice" />
             <option value="$PROJECT_DIR$/ex8_component" />
             <option value="$PROJECT_DIR$/ex8_todo" />
+            <option value="$PROJECT_DIR$/ex9_sqlite_todo" />
+            <option value="$PROJECT_DIR$/exam9_sqlite_edu" />
           </set>
         </option>
       </GradleProjectSettings>

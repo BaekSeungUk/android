@@ -4,6 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Java/workspace-android/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Java/workspace-android/ex10_networking/src/main/res/layout/activity_main.xml" value="0.12462006079027356" />
+        <entry key="..\:/Java/workspace-android/ex10_news/src/main/res/layout/activity_main.xml" value="0.12462006079027356" />
+        <entry key="..\:/Java/workspace-android/ex10_news/src/main/res/layout/fragment_retrofit.xml" value="0.12462006079027356" />
+        <entry key="..\:/Java/workspace-android/ex10_news/src/main/res/layout/item_main.xml" value="0.12462006079027356" />
+        <entry key="..\:/Java/workspace-android/ex10_news/src/main/res/menu/menu_main.xml" value="0.17037037037037037" />
         <entry key="..\:/Java/workspace-android/ex1_view/src/main/res/layout/relative_test.xml" value="0.19384057971014493" />
         <entry key="..\:/Java/workspace-android/ex2_keypad/src/main/res/layout/activity_main.xml" value="0.21" />
         <entry key="..\:/Java/workspace-android/ex2_layout/src/main/res/layout/activity_main.xml" value="0.19429347826086957" />
@@ -67,6 +72,14 @@
         <entry key="..\:/Java/workspace-android/ex8_todo/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Java/workspace-android/ex8_todo/src/main/res/layout/item_recyclerview.xml" value="0.125" />
         <entry key="..\:/Java/workspace-android/ex8_todo/src/main/res/menu/menu_add.xml" value="0.125" />
+        <entry key="..\:/Java/workspace-android/ex9_sqlite_todo/src/main/res/layout/activity_add.xml" value="0.12462006079027356" />
+        <entry key="..\:/Java/workspace-android/ex9_sqlite_todo/src/main/res/layout/activity_main.xml" value="0.12462006079027356" />
+        <entry key="..\:/Java/workspace-android/ex9_sqlite_todo/src/main/res/layout/activity_setting.xml" value="0.12462006079027356" />
+        <entry key="..\:/Java/workspace-android/ex9_sqlite_todo/src/main/res/layout/fragment_my_setting.xml" value="0.12462006079027356" />
+        <entry key="..\:/Java/workspace-android/ex9_sqlite_todo/src/main/res/layout/item_recyclerview.xml" value="0.18" />
+        <entry key="..\:/Java/workspace-android/ex9_sqlite_todo/src/main/res/layout/settings.xml" value="0.12462006079027356" />
+        <entry key="..\:/Java/workspace-android/ex9_sqlite_todo/src/main/res/menu/menu_add.xml" value="0.17037037037037037" />
+        <entry key="..\:/Java/workspace-android/exam9_sqlite_edu/src/main/res/layout/activity_main.xml" value="0.16576086956521738" />
       </map>
     </option>
   </component>
